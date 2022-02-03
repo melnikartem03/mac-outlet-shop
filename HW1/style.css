@@ -1,0 +1,185 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #3B3E66;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;  
+}
+.container{
+    max-width: 1054px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;    
+}
+
+/*Style for header*/
+.sign-in{
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Style for page-heading*/
+
+.page-heading{
+    background-size: cover;
+}
+.banner{
+    background: url(img/ipad_air_banner1.jpg) center center no-repeat;
+    min-height: 467px;
+    position: relative;
+}
+.text-banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+}
+.text-banner h1{  
+    font-size: 72px;
+    line-height: 84px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+
+}
+.btn {
+    border-radius: 5px;
+    background-color: #0E49B5;
+    width: 150px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+/*Styles for filter*/
+
+.container-element-filter{
+    position: relative;
+}
+.filter-icon{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+.search {
+    background-image: url('img/search1.svg'); 
+    background-position: 20px 50%; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    font-size: 18px; 
+    padding: 12px 20px 12px 60px; 
+    border: 1px solid #ddd; 
+    margin: 30px 0;
+    height: 60px; 
+    border-radius: 5px;
+}
+
+/* Styles for card*/
+
+.container-element-card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+.card{
+    width: 300px;    
+    border-radius: 10px;
+    border: 1px solid #ddd; 
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.card-head{
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+.card-like-head{
+    margin: 17px 17px 0 12px;
+}
+.card h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 30px 0 0;
+    text-align: center;
+    color: #000000;
+}
+.card-body{    
+    display: flex;
+    justify-content: center;
+}
+.card-body-img{
+    margin: 12px 8px;
+}
+.card-body-text{
+    text-align: left; 
+}
+.card-btn{
+    text-align: center;
+}
+.btnNA {
+    border-radius: 5px;
+    background-color: #DDDDDD;
+    width: 150px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.card-footer{
+    background-color: #DAE2EA;
+    display: flex;    
+    padding: 23px 19px 18px;
+    margin-top: 15px;
+}
+.card-footer-body{
+    margin-right: 55px;
+}
+.icon-footer-like{
+    margin-right: 13px;
+}
+.card-footer-footer{
+    text-align: center;
+}
+.card-footer-body p,
+.card-footer p,
+.card-body p{
+    margin: 12px 0;
+}
+
+/*responsive*/
+
+@media (max-width:950px) {
+    
+    .container-element-card{
+        
+        justify-content: center;
+            
+    }
+    .card{
+        margin: 0 50px 50px;
+    }
+}
+
+@media (max-width:830px) {
+    
+    .card{
+        margin: 0 25px 50px;
+    }
+}
+
+@media (max-width:730px) {
+    
+    .card{
+        margin: 0 15px 50px;
+    }
+}
+
