@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>macoutlet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header>
+            <div class="container">
+                <div class="sign-in">
+                    <a href="#">
+                        <img src="img1/logo.svg" alt="logo" />
+                    </a>
+                    <img src="img1/Cart.svg" alt="cart" />
+                </div>
+            </div>
+        </header>
+
+        <section class="page-heading">
+
+            <div class="container">
+
+                <div class="banner">
+
+                    <div class="text-banner">
+                        <h1>AirPods Pro</h1>
+                        <button class="btn">Add to cart</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="filter">
+
+            <div class="container">
+
+                <div class="container-element-filter">
+
+                    <input type="text" class="search" placeholder="Enter device name...">
+
+                    <div class="filter-icon" >
+                        <img src="img1/Filter.svg" alt="filter" class = "filter-block" />
+                        <img src="img1/Sort.svg" alt="sort" />
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="card-item">
+            <div class="container">
+
+                <div class="window-filter-card">
+
+                    <div class="window-filter">
+                        
+                        <div id = "price" class="window-filter-headblock">
+                            <span class = "window-filter-headblock-text">Price</span>
+                            <img src="img1/Vector.png" alt="image" class="window-filter-headblock-img">
+                        </div>
+
+                        <div class="window-filter-price-body">
+                            <div class="from">
+                                <span>From</span>
+                                <input type="text" class = "window-filter-price-body-input"> 
+                            </div>
+                            
+                            <div class="to">
+                                <span>To</span>
+                                <input type="text">
+                            </div>
+                            
+                        </div>
+
+                        <div id = "color" class="window-filter-headblock">
+                            <span class = "window-filter-headblock-text">Color</span>
+                            <img src="img1/Vector.png" alt="image" class="window-filter-headblock-img">
+                        </div>
+
+                        <div class="window-filter-color-body">
+                            
+                            <div class="window-filter-color-body-left">
+                                
+                                    <div class="window-filter-color-body-left-1">
+                                        <input type="checkbox" name="s" id = "1">
+                                        <label for="1">red</label>
+                                    </div>
+                                    
+                                    <div class="window-filter-color-body-left-2">
+                                        <input type="checkbox" name="s" id = "2">
+                                        <label for="2">black</label>
+                                    </div>
+                                 
+                                    <div class="window-filter-color-body-left-3">
+                                        <input type="checkbox" name="s" id = "3">
+                                        <label for="3">blue</label>
+                                    </div>
+
+                                    <div class="window-filter-color-body-left-4">
+                                        <input type="checkbox" name="s" id = "4">
+                                        <label for="4">gold</label>
+                                    </div>
+                                
+                            </div>
+
+                            <div class="window-filter-color-body-right">
+                                
+                                    <div class="window-filter-color-body-right-5">
+                                        <input type="checkbox" name="s" id = "5">
+                                        <label for="5">green</label>
+                                    </div>
+                                    
+                                    <div class="window-filter-color-body-right-6">
+                                        <input type="checkbox" name="s" id = "6">
+                                        <label for="6">white</label>
+                                    </div>
+                                
+                                    <div class="window-filter-color-body-right-7">
+                                        <input type="checkbox" name="s" id = "7">
+                                        <label for="7">grey</label>
+                                    </div>
+
+                                    <div class="window-filter-color-body-right-8">
+                                        <input type="checkbox" name="s" id = "8">
+                                        <label for="8">yellow</label>
+                                    </div>
+                            
+                        </div>
+
+
+                        </div>
+                       
+                        <div id = "memory" class="window-filter-headblock">
+                            <span class = "window-filter-headblock-text">Memory</span>
+                            <img src="img1/Vector.png" alt="image" class="window-filter-headblock-img">
+                        </div>
+
+                        <div class="window-filter-memory-body">
+                            
+                            <div class="window-filter-color-body-left">
+                                
+                                    <div class="window-filter-color-body-left-1">
+                                        <input type="checkbox" name="s" id = "9">
+                                        <label for="9">32 Gb</label>
+                                    </div>
+                                    
+                                    <div class="window-filter-color-body-left-2">
+                                        <input type="checkbox" name="s" id = "10">
+                                        <label for="10">64 Gb</label>
+                                    </div>
+                                 
+                                    <div class="window-filter-color-body-left-3">
+                                        <input type="checkbox" name="s" id = "11">
+                                        <label for="11">128 Gb</label>
+                                    </div>
+
+                                    <div class="window-filter-color-body-left-4">
+                                        <input type="checkbox" name="s" id = "12">
+                                        <label for="12">256 Gb</label>
+                                    </div>
+                                
+                            </div>
+
+                            <div class="window-filter-color-body-right">
+                                
+                                    <div class="window-filter-color-body-right-5">
+                                        <input type="checkbox" name="s" id = "13">
+                                        <label for="13">512 Gb</label>
+                                    </div>
+                                    
+                                    <div class="window-filter-color-body-right-6">
+                                        <input type="checkbox" name="s" id = "14">
+                                        <label for="14">1 TB</label>
+                                    </div>
+                                
+                                    <div class="window-filter-color-body-right-7">
+                                        <input type="checkbox" name="s" id = "15">
+                                        <label for="15">2 TB</label>
+                                    </div>
+
+                                    <div class="window-filter-color-body-right-8">
+                                        <input type="checkbox" name="s" id = "16">
+                                        <label for="16">4 TB</label>
+                                    </div>
+                            
+                        </div>
+
+
+                        </div>
+
+                        <div id = "os" class="window-filter-headblock">
+                            <span class = "window-filter-headblock-text">OS</span>
+                            <img src="img1/Vector.png" alt="image" class="window-filter-headblock-img">
+                        </div>
+
+                        <div class="window-filter-os-body">
+                            
+                            <div class="window-filter-color-body-left">
+                                
+                                    <div class="window-filter-color-body-left-1">
+                                        <input type="checkbox" name="s" id = "17">
+                                        <label for="17">IOS</label>
+                                    </div>
+                                    
+                                    <div class="window-filter-color-body-left-2">
+                                        <input type="checkbox" name="s" id = "18">
+                                        <label for="18">MAC OS</label>
+                                    </div>
+                                 
+                                    <div class="window-filter-color-body-left-3">
+                                        <input type="checkbox" name="s" id = "19">
+                                        <label for="19">tv OS</label>
+                                    </div>
+
+                                    <div class="window-filter-color-body-left-4">
+                                        <input type="checkbox" name="s" id = "20">
+                                        <label for="20">Watch OS</label>
+                                    </div>
+                                
+                            </div>
+
+                            
+                        </div>
+
+                        <div id = "display" class="window-filter-headblock">
+                            <span class = "window-filter-headblock-text">Display</span>
+                            <img src="img1/Vector.png" alt="image" class="window-filter-headblock-img">
+                        </div>
+
+                        <div  class="window-filter-display-body">
+                            
+                            <div class="window-filter-color-body-left">
+                                
+                                    <div class="window-filter-color-body-left-1">
+                                        <input type="checkbox" name="s" id = "21">
+                                        <label for="21">2 - 5 inch</label>
+                                    </div>
+                                    
+                                    <div class="window-filter-color-body-left-2">
+                                        <input type="checkbox" name="s" id = "22">
+                                        <label for="22">5 - 7 inch</label>
+                                    </div>
+                                 
+                                    <div class="window-filter-color-body-left-3">
+                                        <input type="checkbox" name="s" id = "23">
+                                        <label for="23">7 - 12 inch</label>
+                                    </div>
+
+                                    <div class="window-filter-color-body-left-4">
+                                        <input type="checkbox" name="s" id = "24">
+                                        <label for="24">12 - 16 inch</label>
+                                    </div>
+
+                                    <div class="window-filter-color-body-left-4">
+                                        <input type="checkbox" name="s" id = "25">
+                                        <label for="25">+16 inch</label>
+                                    </div>
+                                
+                            </div>
+
+                            
+
+
+                        </div>
+
+                    </div>
+
+
+                    <div id="items" class="container-element-card">
+
+                        <div id="card" class="card">
+
+                            <div class="card-head">
+
+                                <div class="card-img-head">
+                                    <img class="main-card-img" src="items/airpods-max.jpg" alt="image" width="200">
+                                </div>
+
+
+                                <div class="card-like-head">
+                                    <img src="img1/Like.png" alt="like" class = "like-head"/>
+                                </div>
+
+
+                            </div>
+
+                            <h2 class="card-title">Apple TV Gen. 4</h2>
+
+                            <div class="card-body">
+                                <div class="card-body-img">
+                                    <img src="img1/check1.svg" alt="image" id = "check">
+                                </div>
+
+                                <div class="card-body-text">
+                                    <strong><span class="count-in-stock">0</span></strong>
+                                    left in stock <br>
+                                    Price:
+                                    <span class="price">0</span>
+                                </div>
+
+                            </div>
+
+                            <div class="card-btn">
+                                <button class="btn">Add to cart</button>
+                            </div>
+
+                            <div class="card-footer">
+
+                                <div class="icon-footer-like">
+                                    <img src="img1/like_filled1.svg" alt="like" />
+                                </div>
+
+                                <div class="card-footer-body">
+
+                                    <strong><span class="card-footer-body-reviews">0</span></strong> reviews<br>
+                                    Above avarage
+
+                                </div>
+
+                                <div class="card-footer-footer">
+
+                                    <span class="card-footer-footer-orders">0</span><br>
+                                    orders
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        
+        
+        <section id = "cardInfo" class = "card-info">
+            
+            <div class="card-info-background"></div>
+            
+            <div id = "containerInfo" class="container-card-info"> 
+
+                <div class="card-info-header ">
+                    <div class="card-img-head">
+                        <img class="main-card-img" src="items/airpods-max.jpg" alt="image" width="200">
+                    </div>
+
+                </div>
+
+                
+                <div class="card-info-body line style">
+                    <h2 class="card-title">Apple TV Gen. 4</h2>
+
+                    <div class="card-footer border-footer">
+
+                        <div class="icon-footer-like">
+                            <img src="img1/like_filled1.svg" alt="like" />
+                        </div>
+
+                        <div class="card-footer-body">
+
+                            <strong><span class="card-footer-body-reviews">0</span></strong> reviews<br>
+                            Above avarage
+
+                        </div>
+
+                        
+                        <div class="card-footer-footer">
+
+                            <span class="card-footer-footer-orders">0</span><br>
+                            orders
+
+                        </div>
+
+                    </div>
+                    
+                    <div class="color">Color: <strong>Black</strong></div>
+                    <div class="operation-system">Operation system: <strong>tvOS</strong></div>
+                    <div class="chip">Chip: <strong>A10X</strong></div>
+                    <div class="device-height">Height: <strong>3.5cm</strong></div>
+                    <div class="device-width">Width: <strong>9.8cm</strong></div>
+                    <div class="device-depth">Depth: <strong>9.8cm</strong></div>
+                    <div class="device-weight">Depth: <strong>425 g</strong></div>
+
+                </div>
+                <div class="card-info-footer ">
+                    <div class="card-footer-text">
+                        <div class="footer-price">
+                            <span class="price">$ 999,45</span>
+                        </div>
+                        <div class="footer-count-in-stock">
+                            <span class="count-in-stock">Stock: <b>45 pcs</b></span>
+                        </div>
+                        
+                        <div class="footer-btn">
+                            <button class="btn">Add to cart</button>
+                        </div>
+                           
+                        
+                    </div>
+                </div>
+            </div>    
+
+        </section>
+
+
+    </div>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
