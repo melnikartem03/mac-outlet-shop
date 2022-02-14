@@ -1316,6 +1316,34 @@ let orders = card.getElementsByClassName("card-footer-footer-orders");
 // }
 
 
+let filterBtn = document.querySelector(".filter-btn");
+filterBtn.addEventListener("click", getData);
+
+function getData(){
+
+let p = new Promise((resolve, reject) => {
+    let value = Math.round(Math.random());
+     console.log(value);
+    setTimeout(() => {
+       
+        let server = [{item:1}, {item:2},{item:3}];
+
+        if(value){
+            resolve(server);
+        }
+       else
+         reject("404 not found");
+    
+     }, 2000);
+    });
+    
+    filterBtn.disabled = true;
+
+    p
+      .then(res => console.log('Res: ', res))
+      .catch(err => console.log('Err: ', err))
+      .finally(() => filterBtn.disabled = false);
+}
 
 
 
